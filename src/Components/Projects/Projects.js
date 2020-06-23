@@ -8,7 +8,22 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <div className="tile is-ancestor">
+                <div className = "gridContainer">
+                    <div className="">
+                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
+                    </div>
+                    <div className="">
+                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
+                    </div>
+                    <div className="">
+                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
+                    </div>
+                    <div className="">
+                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
+                    </div>
+                </div>
+
+                {/* <div className="tile is-ancestor">
                     <div className="tile is-vertical is-parent">
                         <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
                         <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
@@ -23,7 +38,7 @@ class Projects extends Component {
                         <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
                     </div>
 
-                </div>
+                </div> */}
             </div>
         )
     }

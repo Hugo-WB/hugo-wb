@@ -1,0 +1,35 @@
+.navBarContainer{
+    /* border: 2px black solid; */
+    border-bottom: 0.1vw black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.is-clickable{
+    cursor: pointer;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: center;
+    font-size: 1em;
+}
+div{
+    padding: 1vw 1vw 1vw 1vw;
+}
+.socialLogos{
+    height:8vw;
+    width:8vw;
+    transition: opacity 0.5s;
+    opacity:0.9;
+}
+.socialLogos:hover{
+    opacity: 1;
+}
+.links:hover{
+    font-weight: 600;
+    text-shadow: 0.3vw 0.3vw rgb(201, 201, 201) ;
+    transition: text-shadow 0.5s;
+    transition-timing-function: ease-out;
+}

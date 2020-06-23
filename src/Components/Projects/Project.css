@@ -1,0 +1,12 @@
+
+
+.ProjectCard{
+    background-color: rgb(245, 245, 245);
+    /* background-color:red; */
+}
+
+.ProjectCard:hover{
+    background-color:  rgb(233, 233, 233);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

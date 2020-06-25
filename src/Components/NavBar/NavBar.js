@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
 
 import github from "../../assets/github.svg"
 import linkedin from "../../assets/linkedin.svg"
@@ -39,20 +40,26 @@ class NavBar extends Component {
                    </div>
                </div>
                <div className = "columns is-vcentered is-centered">
-                   <div class = "column is-clickable" onClick = {()=>{this.handleClick("switchPage","About")}}>
-                       <p className = "links">
-                           About
-                       </p>
+                   <div class = "column is-clickable">
+                        <Link to="/about">
+                            <p className = "links">
+                                About
+                            </p>  
+                        </Link>
                    </div>
-                   <div class = "column is-clickable" onClick = {()=>{this.handleClick("switchPage","Projects")}}>
-                       <p className = "links">
-                           Projects
-                       </p>
+                   <div class = "column is-clickable">
+                       <Link to="/projects">
+                            <p className = "links">
+                                Projects
+                            </p>
+                       </Link>
                    </div>
-                   <div class = "column is-clickable" onClick = {()=>{this.handleClick("switchPage","Contact")}}>
-                       <p className = "links">
-                           Contact
-                       </p>
+                   <div class = "column is-clickable">
+                       <Link to = "/contact">
+                            <p className = "links">
+                                Contact
+                            </p>
+                       </Link>
                    </div>
                </div>
            </div>
@@ -63,9 +70,6 @@ const mapStateToProps = (state) =>({
     
 })
 const mapDispatchToProps = (dispatch) =>({
-    switchPage: (page) =>{
-        dispatch({type:"switchPage",page:page})
-    }
 })
 
 

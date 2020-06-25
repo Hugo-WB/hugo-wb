@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 import NavBar from "./Components/NavBar/NavBar"
 import {connect} from 'react-redux'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 
 import "./App.css"
 import "bulma/css/bulma.min.css"
@@ -35,19 +42,35 @@ class App extends Component {
   }
   render() {
     return (
+      <Router>
       <div className = "background has-background-white-bis">
         <div className = "mainCard">
           <NavBar/>
-          {this.choosePage()}
+          <Switch>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            
+            <Route path="/about">
+              <p>About</p>
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/">
+              <Redirect exact from="/" to="/projects" />
+            </Route>
+        </Switch>
         </div>
       </div>
+      </Router>
     )
     
   }
 }
 
 const mapStateToProps = (state) => ({
-  currentPage : state.page.currentPage,
 })
 const mapDispatchToProps = (dispatch) => ({
 

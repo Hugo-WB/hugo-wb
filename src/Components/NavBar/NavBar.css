@@ -27,6 +27,9 @@ div{
 .socialLogos:hover{
     opacity: 1;
 }
+.links{
+    color:black;
+}
 .links:hover{
     font-weight: 600;
     text-shadow: 0.3vw 0.3vw rgb(201, 201, 201) ;

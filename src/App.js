@@ -19,26 +19,6 @@ import Contact from "./Components/Contact/Contact"
 class App extends Component {
   constructor(props) {
     super(props)
-    this.choosePage = this.choosePage.bind(this)
-  }
-  choosePage = () =>{
-    switch (this.props.currentPage){
-      case "About":
-        return (
-          <About />
-      )
-      case "Projects":
-        console.log("projects")
-        return(
-          <div>
-            <Projects/>
-          </div>
-      )
-      case "Contact":
-        return(
-          <Contact />
-      )
-    }
   }
   render() {
     return (
@@ -50,9 +30,7 @@ class App extends Component {
             <Route path="/projects">
               <Projects />
             </Route>
-            
             <Route path="/about">
-              <p>About</p>
               <About />
             </Route>
             <Route path="/contact">

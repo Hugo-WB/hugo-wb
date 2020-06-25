@@ -47,7 +47,7 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => ({
-  currentPage : state.projects.currentPage,
+  currentPage : state.page.currentPage,
 })
 const mapDispatchToProps = (dispatch) => ({
 

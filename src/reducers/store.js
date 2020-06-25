@@ -1,9 +1,9 @@
 import {combineReducers} from 'redux';
 import projectsReducer from "./projects/projectsReducer"
-// import generalReducer from "./generalReducer"
+import pageReducer from "./pageReducer"
 const allReducers = combineReducers({
     projects: projectsReducer,
-    // general: generalReducer
+    page:pageReducer,
 })
 
 export default allReducers;

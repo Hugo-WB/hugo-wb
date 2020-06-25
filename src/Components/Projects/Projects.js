@@ -5,12 +5,16 @@ import ProjectCard from "./ProjectCard.js"
 
 import "../../App.css"
 class Projects extends Component {
+    constructor(props) {
+        super(props)
+        this.projectCards = this.projectCards.bind(this)
+    }
     projectCards = () =>{
         let cards = []
         let projects = this.props.projects
         for (let i = 0; i < projects.length; i++){
             cards.push(
-            <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
+                <ProjectCard data = {projects[i]}/>
             )
         }
         return cards;
@@ -19,38 +23,24 @@ class Projects extends Component {
         return (
             <div>
                 <div className = "gridContainer">
+                    {this.projectCards()}
+                    {/* <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
                     <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
                     <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
                     <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
-                    <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
-                    <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
+                    <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/> */}
                 </div>
 
-                {/* <div className="tile is-ancestor">
-                    <div className="tile is-vertical is-parent">
-                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
-                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
-                    </div>
-                    <div className="tile is-5 is-vertical is-parent">
-                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
-                    </div>
-                </div>
-                <div className = "tile is-ancestor">
-                    
-                    <div className = "tile is-parent">
-                        <ProjectCard data = {{"image":"https://i.imgur.com/3oJs7xB.png","title":"Q-Learning","description":"loadfadfadfadfafadfafafafdrem"}}/>
-                    </div>
-
-                </div> */}
             </div>
         )
     }
 }
 
 
-const mapStateToProps = (state) =>{
+const mapStateToProps = (state) =>({
+    projects: state.projects.projects,
 
-}
+})
 const mapDispatchToProps = (dispatch) =>{
 
 }

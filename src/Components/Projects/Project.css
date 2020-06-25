@@ -1,18 +1,41 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    /* grid-template-columns: repeat(2,1fr); */
+    /* grid-template-rows:; */
+    grid-auto-rows: min-content;
+    gap: 1.5rem;
+    grid-auto-flow: dense;
+    text-align: left;
+}
 .ProjectCard{
     background-color: rgb(245, 245, 245);
     /* background-color:red; */
+    box-shadow: 5px 5px 10px rgb(200, 200, 200);
+    border-radius:3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
-
 .ProjectCard:hover{
     background-color:  rgb(233, 233, 233);
     cursor: pointer;
-    transition: background-color 0.3s;
+    box-shadow: 10px 10px 10px rgb(180, 180, 180);
+    transition: background-color 0.5s;
+    transition: box-shadow 0.7s;
 }
-
-.gridContainer{
-    display: grid;
-    grid-template-columns: repeat(3,2fr);
-    /* grid-template-rows:; */
-    column-gap: 0.5vw;
-    row-gap: 0.5vw;
+.wideProject{
+    grid-column: 1/-1;
+}
+.tallProject{
+    grid-row: span 2;
+}
+.projectTitle{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: inherit;
+}
+.projectDescription{
+    text-align: inherit;
 }

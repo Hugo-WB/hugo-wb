@@ -1,16 +1,28 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
+import anime from 'animejs/lib/anime.es.js';
 
 import github from "../../assets/github.svg"
 import linkedin from "../../assets/linkedin.svg"
-
+import hwb from "../../assets/HWBSVG.svg"
 import "./NavBar.css"
 
 class NavBar extends Component {
     constructor(props){
         super(props)
         this.handleClick = this.handleClick.bind(this)
+    }
+    componentDidMount(props){
+        anime({
+            targets:".hwbsvg .hwbsvg path",
+            strokeDashoffset: [anime.setDashoffset, 0],
+            easing: 'easeInOutSine',
+            duration: 1500,
+            delay: function(el, i) { return i * 250 },
+            direction: 'alternate',
+            loop: true
+        })
     }
     handleClick=(action,info) =>{
         
@@ -24,9 +36,11 @@ class NavBar extends Component {
            <div className = "navBarContainer">
                <div className = "columns is-vcentered is-centered" style={{borderBottom:"0.1vw black solid"}}>
                    <div className = "column is-two-thirds has-text-weight-bold">
-                       <p style={{fontSize:"2em"}}>  
+                       {/* <p style={{fontSize:"2em"}}>  
                          Hugo Wong-Berard  
-                       </p>
+                       </p> */}
+                       <img src={hwb}/>
+                       
                    </div>
                    <div className = "column has-text-centered">
                        <a href="https://www.google.com/" target="_blank">

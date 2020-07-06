@@ -7,6 +7,7 @@ import {
   Route,
   Link,
   Redirect,
+  HashRouter,
 } from "react-router-dom";
 
 import "./App.css"

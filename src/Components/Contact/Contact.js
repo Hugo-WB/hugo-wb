@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import "./Contact.css"
+import anime from 'animejs/lib/anime.es.js';
 export default class Contact extends Component {
     componentDidMount(props){
         anime({
             targets:".test",
+            translateX:250,
         })
         }
     render() {

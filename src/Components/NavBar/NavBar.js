@@ -13,17 +13,6 @@ class NavBar extends Component {
         super(props)
         this.handleClick = this.handleClick.bind(this)
     }
-    componentDidMount(props){
-        anime({
-            targets:".hwbsvg .hwbsvg path",
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'easeInOutSine',
-            duration: 1500,
-            delay: function(el, i) { return i * 250 },
-            direction: 'alternate',
-            loop: true
-        })
-    }
     handleClick=(action,info) =>{
         
         switch (action){

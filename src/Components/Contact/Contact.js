@@ -10,7 +10,7 @@ export default class Contact extends Component {
                     </div>
                     <div className ="column">
                         <p>
-                            hugowong71@gmail.com
+                            hugowong71@gmail.com 
                         </p>
                     </div>
                     <br/>

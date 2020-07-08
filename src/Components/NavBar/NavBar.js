@@ -29,12 +29,12 @@ class NavBar extends Component {
                        
                    </div>
                    <div className = "column has-text-centered">
-                       <a href="https://www.google.com/" target="_blank">
+                       <a href="https://github.com/Hugo-WB" target="_blank">
                            <img src={github} alt="github" className = "socialLogos"/>
                        </a>
                    </div>
                    <div className = "column has-text-centered">
-                       <a href="https://www.linkedin.com/" target="_blank">
+                       <a href="https://www.linkedin.com/in/hugo-wong-berard-4499b91a0/" target="_blank">
                            <img src={linkedin} alt="github" className = "socialLogos"/>
                        </a>
                    </div>

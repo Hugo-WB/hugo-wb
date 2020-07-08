@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
+import anime from 'animejs/lib/anime.es.js';
 
 import github from "../../assets/github.svg"
 import linkedin from "../../assets/linkedin.svg"
-
+import hwb from "../../assets/HWBSVG.svg"
 import "./NavBar.css"
-
+import NameSVG from "./NameSVG.js"
 class NavBar extends Component {
     constructor(props){
         super(props)
@@ -24,9 +25,8 @@ class NavBar extends Component {
            <div className = "navBarContainer">
                <div className = "columns is-vcentered is-centered" style={{borderBottom:"0.1vw black solid"}}>
                    <div className = "column is-two-thirds has-text-weight-bold">
-                       <p style={{fontSize:"2em"}}>  
-                         Hugo Wong-Berard  
-                       </p>
+                       <NameSVG />
+                       
                    </div>
                    <div className = "column has-text-centered">
                        <a href="https://www.google.com/" target="_blank">

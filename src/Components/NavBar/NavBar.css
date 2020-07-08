@@ -13,14 +13,14 @@ p{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     vertical-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 div{
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 0.6vw;
 }
 .socialLogos{
-    height:8vw;
-    width:8vw;
+    height:6vw;
+    width:6vw;
     transition: opacity 0.5s;
     opacity:0.9;
 }

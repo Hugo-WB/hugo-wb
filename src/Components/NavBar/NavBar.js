@@ -25,10 +25,6 @@ class NavBar extends Component {
            <div className = "navBarContainer">
                <div className = "columns is-vcentered is-centered" style={{borderBottom:"0.1vw black solid"}}>
                    <div className = "column is-two-thirds has-text-weight-bold">
-                       {/* <p style={{fontSize:"2em"}}>  
-                         Hugo Wong-Berard  
-                       </p> */}
-                       {/* <img src={hwb}/> */}
                        <NameSVG />
                        
                    </div>

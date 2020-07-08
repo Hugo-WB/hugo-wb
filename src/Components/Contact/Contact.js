@@ -21,9 +21,9 @@ export default class Contact extends Component {
                         </p>
                     </div>
                     <br/>
-                    <div className = "test" style = {{width:"100px",height:"100px",backgroundColor:"red"}}>
+                    {/* <div className = "test" style = {{width:"100px",height:"100px",backgroundColor:"red"}}>
                         test
-                    </div>
+                    </div> */}
         
                 </div>
             </div>

@@ -7,7 +7,7 @@ import github from "../../assets/github.svg"
 import linkedin from "../../assets/linkedin.svg"
 import hwb from "../../assets/HWBSVG.svg"
 import "./NavBar.css"
-
+import NameSVG from "./NameSVG.js"
 class NavBar extends Component {
     constructor(props){
         super(props)
@@ -28,7 +28,8 @@ class NavBar extends Component {
                        {/* <p style={{fontSize:"2em"}}>  
                          Hugo Wong-Berard  
                        </p> */}
-                       <img src={hwb}/>
+                       {/* <img src={hwb}/> */}
+                       <NameSVG />
                        
                    </div>
                    <div className = "column has-text-centered">

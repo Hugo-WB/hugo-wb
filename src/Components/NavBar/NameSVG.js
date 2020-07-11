@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import anime from 'animejs/lib/anime.es.js';
-
+import "./NavBar.css"
 export default class NameSVG extends Component {
     componentDidMount(self){
         anime({

@@ -27,6 +27,7 @@ class App extends Component {
       <div className = "background has-background-white-bis">
         <div className = "mainCard">
           <NavBar/>
+          <div className = "contentCard">
           <Switch>
             <Route path="/projects">
               <Projects />
@@ -40,7 +41,8 @@ class App extends Component {
             <Route path="/">
               <Redirect exact from="/" to="/projects" />
             </Route>
-        </Switch>
+          </Switch>
+          </div>
         </div>
       </div>
       </Router>

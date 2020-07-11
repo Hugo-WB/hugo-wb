@@ -22,11 +22,46 @@ class NavBar extends Component {
     }
     render() {
         return(
-           <div className = "navBarContainer">
-               <div className = "columns is-vcentered is-centered" style={{borderBottom:"0.1vw black solid"}}>
+           <div className = "topContainer">
+               <div className = "header">
+                    <NameSVG />
+                    <div className = "socialDivs">
+                       <a href="https://github.com/Hugo-WB" target="_blank">
+                           <img src={github} alt="github" className = "socialLogos"/>
+                       </a>
+                    </div>
+                    <div className = "socialDivs">
+                       <a href="https://www.linkedin.com/in/hugo-wong-berard-4499b91a0/" target="_blank">
+                           <img src={linkedin} alt="linkedin" className = "socialLogos"/>
+                       </a>
+                    </div>
+               </div>
+               <div className = "navBar">
+                   <div>
+                        <Link to="/about">
+                            <p className = "links">
+                                About
+                            </p>  
+                        </Link>
+                   </div>
+                   <div>
+                       <Link to="/projects">
+                            <p className = "links">
+                                Projects
+                            </p>
+                       </Link>
+                   </div>
+                   <div>
+                       <Link to = "/contact">
+                            <p className = "links">
+                                Contact
+                            </p>
+                       </Link>
+                   </div>
+               </div>
+               {/* <div className = "columns is-vcentered is-centered" style={{borderBottom:"0.1vw black solid"}}>
                    <div className = "column is-two-thirds has-text-weight-bold">
                        <NameSVG />
-                       
                    </div>
                    <div className = "column has-text-centered">
                        <a href="https://github.com/Hugo-WB" target="_blank">
@@ -35,7 +70,7 @@ class NavBar extends Component {
                    </div>
                    <div className = "column has-text-centered">
                        <a href="https://www.linkedin.com/in/hugo-wong-berard-4499b91a0/" target="_blank">
-                           <img src={linkedin} alt="github" className = "socialLogos"/>
+                           <img src={linkedin} alt="github" classname = "sociallogos"/>
                        </a>
                    </div>
                </div>
@@ -61,7 +96,7 @@ class NavBar extends Component {
                             </p>
                        </Link>
                    </div>
-               </div>
+               </div> */}
            </div>
         )
     }

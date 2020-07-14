@@ -7,16 +7,18 @@
     gap: 1.5rem;
     grid-auto-flow: dense;
     text-align: left;
+    margin-top: 3vh;
+    padding: 1vh 1vw 1vh 1vw;
 }
 .ProjectCard{
     background-color: rgb(245, 245, 245);
-    /* background-color:red; */
     box-shadow: 5px 5px 10px rgb(200, 200, 200);
     border-radius:3%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding:1vh 1vw 1vh 1vw;
 }
 .ProjectCard:hover{
     background-color:  rgb(233, 233, 233);

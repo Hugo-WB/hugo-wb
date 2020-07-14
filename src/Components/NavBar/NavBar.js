@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
-import anime from 'animejs/lib/anime.es.js';
 
 import github from "../../assets/github.svg"
 import linkedin from "../../assets/linkedin.svg"
@@ -11,7 +10,26 @@ import NameSVG from "./NameSVG.js"
 class NavBar extends Component {
     constructor(props){
         super(props)
+        this.state = {
+            sticky:false,
+        }
+        this.navBar = React.createRef()
         this.handleClick = this.handleClick.bind(this)
+    }
+    componentDidMount(){
+        this.header = this.navBar.current
+        this.sticky = this.header.offsetTop
+        window.onscroll = ()=>{
+            if (window.pageYOffset > this.sticky){
+                this.setState({
+                    sticky:true,
+                })
+            }else{
+                this.setState({
+                    sticky:false,
+                })
+            }
+        } 
     }
     handleClick=(action,info) =>{
         
@@ -36,7 +54,7 @@ class NavBar extends Component {
                        </a>
                     </div>
                </div>
-               <div className = "navBar">
+               <div className = {this.state.sticky ? "navBar sticky":"navBar"} ref = {this.navBar}>
                    <div>
                         <Link to="/about">
                             <p className = "links">

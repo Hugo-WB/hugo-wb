@@ -23,7 +23,7 @@ class App extends Component {
   }
   render() {
     return (
-      <Router>
+      <Router basename = "/hugo-wb">
       <div className = "background has-background-white-bis">
         <div className = "mainCard">
           <NavBar/>

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hugo-wb/static/css/main.15027ff4.chunk.css",
-    "main.js": "/hugo-wb/static/js/main.fba11c2b.chunk.js",
-    "main.js.map": "/hugo-wb/static/js/main.fba11c2b.chunk.js.map",
+    "main.js": "/hugo-wb/static/js/main.a0e6610b.chunk.js",
+    "main.js.map": "/hugo-wb/static/js/main.a0e6610b.chunk.js.map",
     "runtime-main.js": "/hugo-wb/static/js/runtime-main.6fc8fe71.js",
     "runtime-main.js.map": "/hugo-wb/static/js/runtime-main.6fc8fe71.js.map",
     "static/css/2.a2c18f5e.chunk.css": "/hugo-wb/static/css/2.a2c18f5e.chunk.css",
     "static/js/2.c34bc349.chunk.js": "/hugo-wb/static/js/2.c34bc349.chunk.js",
     "static/js/2.c34bc349.chunk.js.map": "/hugo-wb/static/js/2.c34bc349.chunk.js.map",
     "index.html": "/hugo-wb/index.html",
-    "precache-manifest.a457bb9b5f81910ca9f9c6a4a12aeb55.js": "/hugo-wb/precache-manifest.a457bb9b5f81910ca9f9c6a4a12aeb55.js",
+    "precache-manifest.9ebd9a8055e6440eea4c4fe2a6e3f180.js": "/hugo-wb/precache-manifest.9ebd9a8055e6440eea4c4fe2a6e3f180.js",
     "service-worker.js": "/hugo-wb/service-worker.js",
     "static/css/2.a2c18f5e.chunk.css.map": "/hugo-wb/static/css/2.a2c18f5e.chunk.css.map",
     "static/css/main.15027ff4.chunk.css.map": "/hugo-wb/static/css/main.15027ff4.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.a2c18f5e.chunk.css",
     "static/js/2.c34bc349.chunk.js",
     "static/css/main.15027ff4.chunk.css",
-    "static/js/main.fba11c2b.chunk.js"
+    "static/js/main.a0e6610b.chunk.js"
   ]
 }

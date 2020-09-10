@@ -6,6 +6,7 @@
 - [<img align="left" alt="linkedin" width="20px" src="https://img.icons8.com/doodle/480/000000/linkedin--v2.png" />][linkedin]
 <br />
 <br />
+
 ## Languages/Frameworks
 <img src="https://img.icons8.com/color/480/000000/typescript.png" alt="typescript" width="50px" align="left"/>
 <img src="https://img.icons8.com/office/480/000000/react.png" alt="react" width="50px" align="left"/>

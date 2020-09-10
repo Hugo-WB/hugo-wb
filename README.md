@@ -1,6 +1,6 @@
 ### Hugo **Wong-Berard** 👋👋👋
  
-## I'm a 1st year undergrad at the University Of Warwick studying Computer Science
+## 1st year undergrad at the University Of Warwick studying Computer Science
 - 📍 London/Coventry
 - 🎓 Warwick
 - [<img align="left" alt="linkedin" width="20px" src="https://img.icons8.com/doodle/480/000000/linkedin--v2.png" />][linkedin]

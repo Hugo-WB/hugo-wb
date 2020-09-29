@@ -7,7 +7,7 @@
 
 <br />
 
-![<img align="left" alt="linkedin" width="60px" src="https://img.icons8.com/doodle/480/000000/linkedin--v2.png" />][https://www.linkedin.com/in/hugo-wong-berard-4499b91a0/]
+![<img align="left" alt="linkedin" width="60px" src="https://img.icons8.com/doodle/480/000000/linkedin--v2.png" />](https://www.linkedin.com/in/hugo-wong-berard-4499b91a0/)
 <br />
 ## Languages/Frameworks
 <img src="https://img.icons8.com/color/480/000000/typescript.png" alt="typescript" width="50px" align="left"/>

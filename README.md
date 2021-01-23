@@ -12,19 +12,24 @@
 
 ## Languages/Frameworks
 
+<!-- SOURCE: -->
+
+<!-- <img src="https://img.shields.io/static/v1?label=&message=TypeScript&color=007ACC&logo=typescript&logoColor=white" /> 
+<img src="https://img.shields.io/static/v1?label=&message=React&color=61DAFB&logo=react&logoColor=black" /> 
+<img src="https://img.shields.io/static/v1?label=&message=Node.js&color=339933&logo=node.js&logoColor=white" /> 
+<img src="https://img.shields.io/static/v1?label=&message=PostgreSQL&color=336791&logo=PostgreSQL&logoColor=white" /> 
 <img src="https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=git&logoColor=white" /> 
 <img src="https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=github&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=Java&color=007396&logo=java&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=Javascript&color=F7DF1E&logo=javascript&logoColor=black" /> 
-<img src="https://img.shields.io/static/v1?label=&message=Material-UI&color=0081CB&logo=material-ui&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=PostgreSQL&color=336791&logo=PostgreSQL&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=Node.js&color=339933&logo=node.js&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=Notion&color=000000&logo=Notion&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=python&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=React&color=61DAFB&logo=react&logoColor=black" /> 
-<img src="https://img.shields.io/static/v1?label=&message=Spring&color=6DB33F&logo=spring&logoColor=white" /> 
-<img src="https://img.shields.io/static/v1?label=&message=TypeScript&color=007ACC&logo=typescript&logoColor=white" /> 
 <img src="https://img.shields.io/static/v1?label=&message=Visual%20Studio%20Code&color=007ACC&logo=visual-studio-code&logoColor=white" />
+<img src="https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=python&logoColor=white" /> 
+<img src="https://img.shields.io/static/v1?label=&message=Notion&color=000000&logo=Notion&logoColor=white" /> 
+<img src="https://img.shields.io/static/v1?label=&message=Java&color=007396&logo=java&logoColor=white" /> 
+<img src="https://img.shields.io/static/v1?label=&message=Spring&color=6DB33F&logo=spring&logoColor=white" /> -->
+
+<!-- OUTPUT: -->
+
+<img src="https://img.shields.io/static/v1?label=&message=TypeScript&color=007ACC&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=React&color=61DAFB&logo=react&logoColor=black" /> <img src="https://img.shields.io/static/v1?label=&message=Node.js&color=339933&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=PostgreSQL&color=336791&logo=PostgreSQL&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=git&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=github&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Visual%20Studio%20Code&color=007ACC&logo=visual-studio-code&logoColor=white" /><img src="https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=python&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Notion&color=000000&logo=Notion&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Java&color=007396&logo=java&logoColor=white" />
+<img src="https://img.shields.io/static/v1?label=&message=Spring&color=6DB33F&logo=spring&logoColor=white" />
 
 <br />
 <br />

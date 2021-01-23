@@ -7,7 +7,9 @@
   <br />
 
 <!-- [<img align="left" alt="linkedin" width="60px" src="https://img.icons8.com/doodle/480/000000/linkedin--v2.png" />][linkedin] -->
-<img src="https://img.shields.io/static/v1?label=&message=Linkedin&color=0077B5&logo=typescript&logoColor=white&link=https://linkedin.com/in/hugo-wb/&logoWidth=40" alt="linkedin"/> 
+<a href="https://linkedin.com/in/hugo-wb/">
+<img src="https://img.shields.io/static/v1?label=&message=Linkedin&color=0077B5&logo=LinkedIn&logoColor=white&link=https://linkedin.com/in/hugo-wb/&logoWidth=40" alt="linkedin"/> 
+</a>
 <br />
 <br />
 

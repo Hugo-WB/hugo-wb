@@ -1,41 +1,20 @@
-### Hugo **Wong-Berard** 👋👋👋
+## Hi! I'm Hugo 👋👋👋
 
-## 1st year undergrad at the University Of Warwick studying Computer Science
+### I'm a 2nd year undergrad at the University Of Warwick studying Computer Science
 
 - 📍 London/Coventry
 - 🎓 Warwick
+- Former <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEHdcoLz4M09g/company-logo_200_200/0/1575124721908?e=2159024400&v=beta&t=iKcU_reUfHsNTGChJHZ7Ue6uEWZvtkFJfr-FPFsRQ1s" style="height:18px;width:18px"/> [Finimize](http://finimize.com) Intern
+- Looking for software engineering internships
   <br />
 
-<!-- [<img align="left" alt="linkedin" width="60px" src="https://img.icons8.com/doodle/480/000000/linkedin--v2.png" />][linkedin] -->
 <a href="https://linkedin.com/in/hugo-wb/" target="_blank">
 <img src="https://img.shields.io/static/v1?label=&message=Linkedin&color=0077B5&logo=LinkedIn&logoColor=white&link=https://linkedin.com/in/hugo-wb/&logoWidth=40" alt="linkedin"/> 
 </a>
-<br />
-<br />
+<!-- <br /> -->
+<!-- <br /> -->
 
-## Languages/Frameworks
-
-<!-- SOURCE: -->
-
-<!-- Made with shields.io and simpleicons.org -->
-
-<!-- <img src="https://img.shields.io/static/v1?label=&message=TypeScript&color=007ACC&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=React&color=61DAFB&logo=react&logoColor=black" />
-<img src="https://img.shields.io/static/v1?label=&message=Node.js&color=339933&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=PostgreSQL&color=336791&logo=PostgreSQL&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=git&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=github&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=Visual%20Studio%20Code&color=007ACC&logo=visual-studio-code&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=python&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=Notion&color=000000&logo=Notion&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=Java&color=007396&logo=java&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=Spring&color=6DB33F&logo=spring&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=GraphQL&color=E10098&logo=GraphQL&logoColor=white" /> -->
-
-<!-- OUTPUT: -->
-
-<img src="https://img.shields.io/static/v1?label=&message=TypeScript&color=007ACC&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=React&color=61DAFB&logo=react&logoColor=black" /> <img src="https://img.shields.io/static/v1?label=&message=Node.js&color=339933&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=PostgreSQL&color=336791&logo=PostgreSQL&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=GraphQL&color=E10098&logo=GraphQL&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=git&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=github&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Visual%20Studio%20Code&color=007ACC&logo=visual-studio-code&logoColor=white" /><img src="https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=python&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Notion&color=000000&logo=Notion&logoColor=white" /> <img src="https://img.shields.io/static/v1?label=&message=Java&color=007396&logo=java&logoColor=white" />
-<img src="https://img.shields.io/static/v1?label=&message=Spring&color=6DB33F&logo=spring&logoColor=white" />
+<!-- ## Languages/Frameworks -->
 
 <br />
 <br />

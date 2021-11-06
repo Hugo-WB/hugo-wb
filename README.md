@@ -4,7 +4,7 @@
 
 - 📍 London/Coventry
 - 🎓 Warwick
-- Former <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEHdcoLz4M09g/company-logo_200_200/0/1575124721908?e=2159024400&v=beta&t=iKcU_reUfHsNTGChJHZ7Ue6uEWZvtkFJfr-FPFsRQ1s" style="height:18px;width:18px"/> [Finimize](http://finimize.com) Intern
+- Former [Finimize](http://finimize.com) Intern
 - Looking for software engineering internships
   <br />
 

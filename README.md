@@ -1,11 +1,6 @@
 ## Hi! I'm Hugo 👋👋👋
 
-### I'm a 2nd year undergrad at the University Of Warwick studying Computer Science
 
-- 📍 London/Coventry
-- 🎓 Warwick
-- Former [Finimize](http://finimize.com) Intern
-  <br />
 
 <div style="display:flex;width:100%;align-items:center;">
 
@@ -23,6 +18,7 @@
 <br />
 <!-- [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=hugo-wb&show_icons=true)](https://github.com/anuraghazra/github-readme-stats) -->
 <br />
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hugo-wb&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 <br />
